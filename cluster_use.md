@@ -10,9 +10,17 @@ ssh uname@softmax.iitgn.ac.in
 ```bash
 export PATH=/anaconda/bin:/usr/local/cuda-9.0/bin:/snap/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64
-``` 
+source ~/.bashrc
+```
+
+### Virtual Environment with TF installed:
+
+```bash
+source activate dlsoft
+```
 
 ### to check gpu usage
+
 ```bash
 nvidia-smi
 ```
